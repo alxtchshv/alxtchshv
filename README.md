@@ -1,16 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ADD8,100:5C4EE5&height=200&section=header&text=Alexey%20Chuyashov&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Aspiring%20Go%20Backend%20Developer&descAlignY=58&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ADD8,100:5C4EE5&height=200&section=header&text=Alexey%20Chuyashov&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Go%20Backend%20Developer&descAlignY=58&descSize=22" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00ADD8&center=true&vCenter=true&width=600&lines=Backend+Developer+in+the+making;Go+%7C+PostgreSQL+%7C+Docker;Software+Engineering+student+%40+BSUIR;Always+learning%2C+always+building" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00ADD8&center=true&vCenter=true&width=600&lines=Go+Backend+Developer;REST+APIs+%7C+PostgreSQL+%7C+Docker;Concurrency%2C+goroutines+%26+channels;Open+to+Go+backend+opportunities" alt="Typing SVG" />
 </a>
+
+<br/>
+
+![Open to Work](https://img.shields.io/badge/Open%20to%20Work-Go%20Backend-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
 </div>
 
 ---
 
-### 🧑‍💻 About Me
+### 🐹 About Me
 
 ```go
 package main
@@ -21,28 +25,28 @@ type Developer struct {
     Name      string
     Location  string
     Role      string
-    Education string
-    Focus     []string
+    Stack     []string
+    OpenToWork bool
 }
 
 func main() {
     me := Developer{
-        Name:      "Alexey Chuyashov",
-        Location:  "Minsk, Belarus 🇧🇾",
-        Role:      "Aspiring Go Backend Developer",
-        Education: "BSUIR — Software Engineering, 2nd year",
-        Focus:     []string{"Backend", "REST APIs", "Concurrency", "Databases"},
+        Name:       "Alexey Chuyashov",
+        Location:   "Minsk, Belarus 🇧🇾",
+        Role:       "Go Backend Developer",
+        Stack:      []string{"Go", "PostgreSQL", "Docker", "REST API"},
+        OpenToWork: true,
     }
 
-    fmt.Printf("%s is preparing for a backend internship 🚀\n", me.Name)
+    fmt.Printf("%s — %s, ready to build backends 🚀\n", me.Name, me.Role)
 }
 ```
 
-- 🎓 2-й курс **БГУИР**, факультет компьютерных систем и сетей
-- 🐹 Сосредоточен на **Go backend**-разработке: `net/http`, REST API, горутины и каналы
-- 🎯 Готовлюсь к стажировке backend-разработчиком (целюсь в **Yandex** и **T-Bank**)
-- 🌱 Сейчас изучаю **PostgreSQL** и **Docker**, прокачиваю алгоритмы
-- 💬 Спрашивайте меня про Go, конкурентность и REST API
+- 🐹 Backend-разработчик на **Go**: REST API, конкурентность, чистая многослойная архитектура
+- 🏗️ Пишу сервисы по схеме **handler → service → repository**, JWT-аутентификация, миграции
+- ⚡ Уверенно работаю с **горутинами, каналами, контекстами и мьютексами**
+- 🐘 Проектирую схемы данных в **PostgreSQL** и упаковываю всё в **Docker**
+- 📬 **Открыт к предложениям** по Go backend-разработке — пишите!
 
 ---
 
@@ -51,18 +55,18 @@ func main() {
 <div align="center">
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+</div>
+
+<div align="center">
+
+`net/http` &nbsp;•&nbsp; `goroutines` &nbsp;•&nbsp; `channels` &nbsp;•&nbsp; `context` &nbsp;•&nbsp; `sync.Mutex` &nbsp;•&nbsp; `database/sql` &nbsp;•&nbsp; layered architecture
 
 </div>
 
@@ -73,7 +77,7 @@ func main() {
 <div align="center">
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=alxtchshv&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1b27&title_color=00ADD8&icon_color=5C4EE5" alt="GitHub Stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alxtchshv&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=00ADD8&langs_count=8" alt="Top Languages" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alxtchshv&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=00ADD8&hide=html,css,tex&langs_count=4" alt="Top Languages" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=alxtchshv&theme=tokyonight&hide_border=true&background=1a1b27&ring=00ADD8&fire=5C4EE5&currStreakLabel=00ADD8" alt="GitHub Streak" />
 
@@ -81,28 +85,32 @@ func main() {
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Projects
 
-| Проект | Описание | Стек |
-|--------|----------|------|
-| [**ImitationRestaurantCLI**](https://github.com/alxtchshv/ImitationRestaurantCLI) | Симуляция работы ресторана: каналы, горутины, контексты, мьютексы и сбор статистики | `Go` |
-| [**Library-http-REST-API**](https://github.com/alxtchshv/Library-http-REST-API-) | REST API для библиотеки на чистом `net/http` без фреймворков | `Go` |
-| [**ContactManagerCLI**](https://github.com/alxtchshv/ContactManagerCLI) | CLI-менеджер контактов | `Go` |
-| [**TO-DO-list-CLI**](https://github.com/alxtchshv/TO-DO-list-CLI.-go-dev) | Консольный менеджер задач | `Go` |
+#### 🗄️ [FileStorage — File Storage REST API](https://github.com/alxtchshv/FileStorage)
+> Флагманский проект. Полноценный сервис хранения файлов на Go.
+- **JWT-аутентификация** и трёхуровневая валидация запросов
+- **PostgreSQL**: дерево директорий через adjacency list, SQL-миграции
+- Хранение файлов на диске по **UUID** (flat storage)
+- Чистая архитектура: **handler → service → repository**
 
----
+`Go` &nbsp;`PostgreSQL` &nbsp;`JWT` &nbsp;`REST API` &nbsp;`Docker`
 
-### 🎯 Currently Learning
+#### 🍽️ [ImitationRestaurantCLI](https://github.com/alxtchshv/ImitationRestaurantCLI)
+> Симуляция работы ресторана — практика конкурентности.
+- Каналы, горутины, контексты, `RWMutex`/`Mutex`, сбор статистики
 
-```mermaid
-graph LR
-    A[Go Backend] --> B[PostgreSQL]
-    B --> C[Docker]
-    C --> D[Algorithms]
-    D --> E[Internship 2026]
-    style A fill:#00ADD8,color:#fff
-    style E fill:#5C4EE5,color:#fff
-```
+`Go` &nbsp;`concurrency`
+
+#### 📚 [Library REST API](https://github.com/alxtchshv/Library-http-REST-API-)
+> CRUD REST API для библиотеки на чистом `net/http`, без фреймворков.
+
+`Go` &nbsp;`net/http` &nbsp;`REST API`
+
+#### 🗂️ [ContactManagerCLI](https://github.com/alxtchshv/ContactManagerCLI) &nbsp;·&nbsp; ✅ [TO-DO List CLI](https://github.com/alxtchshv/TO-DO-list-CLI.-go-dev)
+> Консольные приложения на Go — менеджер контактов и трекер задач.
+
+`Go` &nbsp;`CLI`
 
 ---
 
