@@ -22,10 +22,10 @@ package main
 import "fmt"
 
 type Developer struct {
-    Name      string
-    Location  string
-    Role      string
-    Stack     []string
+    Name       string
+    Location   string
+    Role       string
+    Stack      []string
     OpenToWork bool
 }
 
@@ -42,11 +42,11 @@ func main() {
 }
 ```
 
-- 🐹 Backend-разработчик на **Go**: REST API, конкурентность, чистая многослойная архитектура
-- 🏗️ Пишу сервисы по схеме **handler → service → repository**, JWT-аутентификация, миграции
-- ⚡ Уверенно работаю с **горутинами, каналами, контекстами и мьютексами**
-- 🐘 Проектирую схемы данных в **PostgreSQL** и упаковываю всё в **Docker**
-- 📬 **Открыт к предложениям** по Go backend-разработке — пишите!
+- 🐹 Backend developer focused on **Go**: REST APIs, concurrency, clean layered architecture
+- 🏗️ Build services with a **handler → service → repository** structure, JWT auth, and DB migrations
+- ⚡ Confident with **goroutines, channels, contexts, and mutexes**
+- 🐘 Design data schemas in **PostgreSQL** and ship everything with **Docker**
+- 📬 **Open to opportunities** in Go backend development — feel free to reach out!
 
 ---
 
@@ -88,27 +88,27 @@ func main() {
 ### 🚀 Projects
 
 #### 🗄️ [FileStorage — File Storage REST API](https://github.com/alxtchshv/FileStorage)
-> Флагманский проект. Полноценный сервис хранения файлов на Go.
-- **JWT-аутентификация** и трёхуровневая валидация запросов
-- **PostgreSQL**: дерево директорий через adjacency list, SQL-миграции
-- Хранение файлов на диске по **UUID** (flat storage)
-- Чистая архитектура: **handler → service → repository**
+> Flagship project. A full-featured file storage service built in Go.
+- **JWT authentication** and three-level request validation
+- **PostgreSQL**: directory tree via adjacency list, SQL migrations
+- Files stored on disk by **UUID** (flat storage)
+- Clean architecture: **handler → service → repository**
 
 `Go` &nbsp;`PostgreSQL` &nbsp;`JWT` &nbsp;`REST API` &nbsp;`Docker`
 
 #### 🍽️ [ImitationRestaurantCLI](https://github.com/alxtchshv/ImitationRestaurantCLI)
-> Симуляция работы ресторана — практика конкурентности.
-- Каналы, горутины, контексты, `RWMutex`/`Mutex`, сбор статистики
+> A restaurant simulation — hands-on concurrency practice.
+- Channels, goroutines, contexts, `RWMutex`/`Mutex`, statistics collection
 
 `Go` &nbsp;`concurrency`
 
 #### 📚 [Library REST API](https://github.com/alxtchshv/Library-http-REST-API-)
-> CRUD REST API для библиотеки на чистом `net/http`, без фреймворков.
+> A CRUD REST API for a library, built on pure `net/http` — no frameworks.
 
 `Go` &nbsp;`net/http` &nbsp;`REST API`
 
 #### 🗂️ [ContactManagerCLI](https://github.com/alxtchshv/ContactManagerCLI) &nbsp;·&nbsp; ✅ [TO-DO List CLI](https://github.com/alxtchshv/TO-DO-list-CLI.-go-dev)
-> Консольные приложения на Go — менеджер контактов и трекер задач.
+> Command-line apps in Go — a contact manager and a task tracker.
 
 `Go` &nbsp;`CLI`
 
